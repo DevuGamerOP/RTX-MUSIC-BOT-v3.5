@@ -10,7 +10,7 @@ module.exports = {
 
   run: async (client, interaction) => {
     try {
-      const InviteLink = 'YOUR_BOT_INVITE_LINK'; 
+      const InviteLink = 'https://discord.com/api/oauth2/authorize?client_id=1202696328258519112&permissions=8&scope=bot+applications.commands'; 
       const SupportLink = 'YOUR_SUPPORT_SERVER_LINK'; 
 
       const embed = new EmbedBuilder()
